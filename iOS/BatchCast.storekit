@@ -1,0 +1,42 @@
+{
+  "identifier": "batchcast",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_askToBuyEnabled": false
+  },
+  "subscriptionGroups": [
+    {
+      "id": "21500000",
+      "localizations": [],
+      "name": "BatchCast Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "batchcast_pro_monthly",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Estimate cost by karat, metal type, and entered market price.",
+              "displayName": "BatchCast Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "batchcast_pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "BatchCast Pro Monthly",
+          "subscriptionGroupID": "21500000",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
