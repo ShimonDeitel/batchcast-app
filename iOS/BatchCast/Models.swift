@@ -8,14 +8,7 @@ struct Cast: Identifiable, Codable, Equatable {
     var burnoutSchedule: String
     var createdDate: Date
 
-    init(
-        id: UUID = UUID(),
-        pieceName: String = "Signet Ring",
-        metalType: String = "Sterling Silver",
-        weightGrams: String = "8.5",
-        burnoutSchedule: String = "1350F/2hr",
-        createdDate: Date = Date()
-    ) {
+    init(id: UUID = UUID(), pieceName: String = "Signet Ring", metalType: String = "Sterling Silver", weightGrams: String = "8.5", burnoutSchedule: String = "1350F/2hr", createdDate: Date = Date()) {
         self.id = id
         self.pieceName = pieceName
         self.metalType = metalType
@@ -34,14 +27,7 @@ struct BCProEntry: Identifiable, Codable, Equatable {
     var estimatedCost: String
     var createdDate: Date
 
-    init(
-        id: UUID = UUID(),
-        metalType: String = "14k Gold",
-        weightGrams: String = "3.2",
-        pricePerGram: String = "65",
-        estimatedCost: String = "208",
-        createdDate: Date = Date()
-    ) {
+    init(id: UUID = UUID(), metalType: String = "14k Gold", weightGrams: String = "3.2", pricePerGram: String = "65", estimatedCost: String = "208", createdDate: Date = Date()) {
         self.id = id
         self.metalType = metalType
         self.weightGrams = weightGrams
