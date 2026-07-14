@@ -174,9 +174,9 @@ struct CastFormView: View {
     private func save() {
         switch mode {
         case .add:
-            store.addCast(draftPieceName, draftMetalType, draftWeightGrams, draftBurnoutSchedule, isPro: purchases.isPro)
+            store.addCast(pieceName: draftPieceName, metalType: draftMetalType, weightGrams: draftWeightGrams, burnoutSchedule: draftBurnoutSchedule, isPro: purchases.isPro)
         case .edit(let item):
-            store.updateCast(item.id, draftPieceName, draftMetalType, draftWeightGrams, draftBurnoutSchedule)
+            store.updateCast(item.id, pieceName: draftPieceName, metalType: draftMetalType, weightGrams: draftWeightGrams, burnoutSchedule: draftBurnoutSchedule)
         }
         BCHaptics.success()
         dismiss()
